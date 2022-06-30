@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.button {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(92, 176, 182);
+  padding: 15px 40px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(111, 250, 255, 0.4);
+}
+
+
+img.rounded-corners {
+  border-radius: 10px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(94, 169, 179);
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, .2);
+  padding: 10px 50px;
+  transition: 0.27s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  margin-top:25px;
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  margin-top:-7px;
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+</style>
+</head>
+<body style="background-color:#161927;color:#ddd;">
+
+<!-- Nav Bar -->
+<div id="navbar">
+  <a href="#default" id="logo"><img src="C:\Users\Pragalbh Shandilya\Desktop\AIChE\WebDev\Images\download.png" alt="AIChE" style="width:337.8px;height:78.6px;">
+  </a>
+  <div id="navbar-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#our board">Our Board</a>
+    <a href="#events">Events</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact us">Contact Us</a>
+  </div>
+</div>
+
+<!-- Slide Show -->
+<section style="margin-top:120px;margin-top:-10px;">
+    <img class="mySlides" src="C:\Users\Pragalbh Shandilya\Pictures\Captures\Batman™_ Arkham Knight 10-06-2018 14_58_34.png"
+    style="width:100%;height:731px;opacity: 0.3;"><div class="centered">
+      <!--<img src="C:\Users\Pragalbh Shandilya\Desktop\AIChE\WebDev\Images\BITS_Pilani-Logo.svg.png" style="width:100%;height:250px">-->
+    <p style="font-size:75px">American Institue of Chemical Engineers</p>
+    <p style="font-size:75px">BITS Pilani Chapter</p>
+     </div>
+    <img class="mySlides" src="C:\Users\Pragalbh Shandilya\Pictures\Captures\Batman™_ Arkham Knight 10-06-2018 16_12_33.png"
+    style="width:100%;height:731px;opacity: 0.3;">
+    <img class="mySlides" src="C:\Users\Pragalbh Shandilya\Pictures\Captures\Batman™_ Arkham Knight 10-06-2018 14_59_10.png"
+    style="width:100%;height:731px;opacity: 0.3;">
+</section>
+
+<!-- Mid Section-->
+<div style="margin-top:20px;margin-left:100px;margin-right:100px;padding:15px 15px 2500px;font-size:30px;text-align:center">
+  <p><span style="font-size:50px">𝗔𝗜𝗖𝗵𝗘 𝗕𝗜𝗧𝗦 𝗣𝗶𝗹𝗮𝗻𝗶</span></p>
+  <p>The American Institute of Chemical Engineers (AIChE) is a professional organization for chemical engineers. AIChE was established in 1908 to distinguish chemical engineers as a profession independent of chemists and mechanical engineers.</p>
+</div>
+
+<div style="text-align:center;margin-top:-2500px;margin-left: 350px;">
+    <h2><img src="C:\Users\Pragalbh Shandilya\Desktop\AIChE\WebDev\Images\maxresdefault.jpg" class="rounded-corners" style="width:70%;height:400px;"></h2>
+ </div>
+  
+<!-- Events Section -->
+  <div class="container" style="background-color:#212536;margin-top:10px" >
+    <div class="row">
+      <div class="column-66">
+        <h1 class="xlarge-font"><b>Events</b></h1>
+        <h1 class="large-font" style="color:rgb(94, 169, 179);"><b>Flip Quiz</b></h1>
+        <p><span style="font-size:36px">𝗜𝗜𝗖𝗵𝗘 𝗕𝗜𝗧𝗦 𝗣𝗶𝗹𝗮𝗻𝗶, in collaboration with 𝗔𝗜𝗖𝗵𝗘 𝗕𝗜𝗧𝗦 𝗣𝗶𝗹𝗮𝗻𝗶, brings you the 𝗙𝗟𝗜𝗣 𝗤𝗨𝗜𝗭'𝟮𝟮.</span> </p>
+          <p style="line-height: 30px;">  
+            "Being challenged in life is inevitable, being defeated is optional." - Roger Crawford.
+
+            Flip Quiz will put your scientific knowledge to the test by challenging you to guess innovations, personalities, events, etc.
+            
+            Cash Prizes of 5000 INR worth to the winners and 1st Runner-Ups will be given.
+            
+            Get ready to get yourselves challenged and unleash your hidden knacks!
+            
+            </p>
+            <a style="line-height:40px" href="" class="button glow-button" target="_blank" style="margin-top:20px;">Events</a>      
+          </div>
+      <div class="column-33" style="margin-top: 40px">
+          <img src="C:\Users\Pragalbh Shandilya\Desktop\AIChE\WebDev\Images\Screenshot 2022-06-16 134147.png" class="rounded-corners" width="600" height="1000" >
+      </div>
+    </div>
+  </div>
+  
+<!-- Blog Section -->
+  <div class="container">
+    <div class="row">
+      <div class="column-33" style="margin-top: 60px">
+        <img src="C:\Users\Pragalbh Shandilya\Desktop\AIChE\WebDev\Images\Screenshot 2022-06-16 134243.png" class="rounded-corners" alt="App" width="600" height="1000">
+      </div>
+      <div class="column-66">
+        <h1 class="xlarge-font"><b>Blog</b></h1>
+        <h1 class="large-font" style="color:rgb(50, 117, 179);"><b>Specialization in Chemical Engineering</b></h1>
+        <p><span style="font-size:24px">Theme : Biochemical Engineering and Food Engineering</span> </p>
+        <p style="line-height: 30px;">
+            Scientists try to understand nature. Engineers try to make things that do not exist in nature. Engineers stress invention. To embody an invention the engineer must put his idea in concrete terms, and design something that people can use. - Yuan-Cheng ("Bert") Fung 
+            All engineers try to help people by designing new inventions
+            Biochemical engineers combine knowledge of biology, chemistry and engineering to create products from raw materials and develop the processes for achieving this.
+            Food engineers design and develop systems for production, processing, distributing, and storing food and agricultural materials.
+        </p>
+        <a style="line-height:40px" href="" class="button glow-button" target="_blank" style="margin-top:20px;background-color:rgb(50, 117, 179)">Blogs</a>      
+      </div>
+    </div>
+  </div>
+  
+<!-- Our Board Section -->
+  <div class="container" style="background-color:#212536">
+    <div class="row">
+      <div class="column-66">
+        <h1 class="large-font" style="color:rgb(94, 169, 179);"><b>Our Board</b></h1>
+          <p style="line-height: 30px;">  
+            It is time to pass the baton of leadership .
+            AIChE BITS Pilani proudly presents the board for 2022-23!
+            We wish all the best to the new board and hope that they, will take AIChE BITS Pilani to new heights and maintain its legacy.
+          </p>
+          <p> 
+            Congratulations to all!! 
+            
+            </p>
+            <a style="line-height:50px" href="" class="button glow-button" target="_blank" style="margin-top:20px;"> Our Board </a>      
+      </div>
+      <div class="column-33" style="margin-top: 40px">
+          <img src="C:\Users\Pragalbh Shandilya\Desktop\AIChE\WebDev\Images\Screenshot 2022-06-16 142340.png" class="rounded-corners" width="600" height="1000" >
+      </div>
+    </div>
+  </div>
+
+
+<script>
+
+// When the user scrolls down 40px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) 
+  {
+    document.getElementById("navbar").style.padding = "0px 35px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } 
+  else {
+    document.getElementById("navbar").style.padding = "10px 50px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) 
+  {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3500);
+}
+
+</script>
+</body>
+
+<footer>
+  <p style="text-align:left;color:#ddd;margin-left:55px"> Gmail </p>
+  <p style="text-align:left;"><a style="color:#ddd;" href="mailto:aiche.bitsp@gmail.com">aiche.bitsp@gmail.com</a></p>
+  <p style="text-align:center;color:#ddd;margin-top:-72px"> Instagram </p>
+  <p style="text-align:center;"><a style="color:#ddd;" href="https://www.instagram.com/aiche.bitsp/?hl=en">aiche.bitsp</a></p>
+  <p style="text-align:right;color:#ddd;margin-top:-69px;margin-right:95px"> LinkdIn </p>
+  <p style="text-align:right;"><a style="color:#ddd;" href="https://in.linkedin.com/company/aiche-bits-pilani-student-chapter">AIChE BITS Pilani Student Chapter</a></p>
+
+</footer>
+
+</html>
+ 
